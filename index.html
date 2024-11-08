@@ -83,6 +83,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" data-bs-toggle="tab" href="#testDetails">Test Details</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#approvalDetails">Approval Details</a>
+                    </li>
                 </ul>
                 <div class="tab-content p-3 border border-top-0">
                     <div class="tab-pane fade show active" id="testDetails">
@@ -97,19 +100,19 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Approval Type -->
-            <div class="mb-3">
-                <label class="form-label">Approval Type</label>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="conditionalApproval">
-                    <label class="form-check-label">Conditional Approval</label>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="nonConditionalApproval">
-                    <label class="form-check-label">Non-Conditional Approval</label>
+                    <div class="tab-pane fade" id="approvalDetails">
+                        <div class="mb-3">
+                            <label class="form-label">Approval Type</label>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="conditionalApproval">
+                                <label class="form-check-label">Conditional Approval</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="nonConditionalApproval">
+                                <label class="form-check-label">Non-Conditional Approval</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
